@@ -6,7 +6,7 @@ The **cross-lingual evaluation protocol** follows the methodology proposed in ou
 
 > **Cross-Lingual TTS for Indian Languages: A Benchmark and Inference-Time Duration Estimation Strategies**  
 > [![Paper](https://img.shields.io/badge/arXiv-2409.05356-brightgreen.svg?style=flat-square)]()
-> [![Demo](https://img.shields.io/badge/GitHub-Demo%20Page-orange.svg)](https://Cross-Lingual-TTS-for-Indian-Languages.github.io/Cross-Lingual-TTS-for-Indian-Languages-DEMO/)
+> [![Demo](https://img.shields.io/badge/GitHub-Demo%20Page-orange.svg)](https://cross-lingual-tts-for-indian-languages.github.io/cross-lingual-tts-demo/)
 
 In addition, this repository includes a script for generating **cross-utterance (monolingual)** evaluation sets using the same data format, which can be used to benchmark zero-shot or voice-cloning TTS systems.
 
