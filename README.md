@@ -1,7 +1,7 @@
 # Cross-Lingual TTS for Indian Languages: A Benchmark and Inference-Time Duration Estimation Strategies  
 
-> [![Paper](https://img.shields.io/badge/arXiv-2409.05356-brightgreen.svg?style=flat-square)]()
-> [![Demo](https://img.shields.io/badge/GitHub-Demo%20Page-orange.svg)](https://cross-lingual-tts-for-indian-languages.github.io/Cross-Lingual-TTS-Demo/)
+[![Paper](https://img.shields.io/badge/arXiv-2409.05356-brightgreen.svg?style=flat-square)]()
+[![Demo](https://img.shields.io/badge/GitHub-Demo%20Page-orange.svg)](https://cross-lingual-tts-for-indian-languages.github.io/Cross-Lingual-TTS-Demo/)
 
 ### Our paper has been accepted to the AACL-IJCNLP 2026 Workshop Multi-LLL 
  
