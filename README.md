@@ -64,7 +64,6 @@ cross_lingual/
 ├── odia_english/
 ├── marathi_english/
 ├── bengali_english/
-└── english/
 ```
 
 Each language directory contains
