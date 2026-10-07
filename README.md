@@ -195,7 +195,8 @@ We thank the authors for making their implementations publicly available.
 
 For questions, suggestions, or issues regarding the evaluation protocol, please open a GitHub issue or contact:
 
-**Arigala Adarsh**  
+**Adarsh Arigala**  
 📧 arigalaadarsh780@gmail.com
-**Arjun Gangwar**
+
+**Arjun Gangwar**  
 📧 arjungangwar@gmail.com
