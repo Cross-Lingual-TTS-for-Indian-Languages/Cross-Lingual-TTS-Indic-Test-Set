@@ -63,7 +63,19 @@ cross_lingual/
 ├── punjabi_english/
 ├── odia_english/
 ├── marathi_english/
-├── bengali_english/
+└── bengali_english/
+
+monolingual/
+│
+├── telugu/
+├── tamil/
+├── hindi/
+├── kannada/
+├── malayalam/
+├── punjabi/
+├── odia/
+├── marathi/
+└── bengali/
 ```
 
 Each language directory contains
@@ -118,7 +130,7 @@ Each evaluation test set contains approximately **2 hours** of paired speech:
 
 Reference utterances are **4–7 seconds**, while generation utterances are **4–10 seconds**. The dataset statistics follow those reported in the paper.
 
-## Preparing a New Cross-Lingual Evaluation Set
+## Preparing a Cross-Lingual Evaluation Set
 
 Run:
 
@@ -145,7 +157,9 @@ Each language directory must contain the following files:
 | `utt2dur` | `utterance_id    duration` |
 | `text` | `utterance_id    transcription` |
 
-## Preparing a Cross-Utterance (Monolingual) Evaluation Set
+- Additionally, we provide **monolingual evaluation sets** for Indian languages, where the reference and generation samples are different utterances from the same speaker.
+
+## Preparing a  Monolingual Evaluation Set
 
 Run:
 

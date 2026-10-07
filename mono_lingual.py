@@ -23,9 +23,9 @@ for lang in languages:
     out_lst = os.path.join(out_dir, f"test_set.lst")
     out_wavscp = os.path.join(out_dir, f"test_set_wav.scp")
 
-    # --------------------
+   
     # Load metadata
-    # --------------------
+  
 
     utt2text = {}
     with open(text_file, encoding="utf-8") as f:
@@ -51,9 +51,9 @@ for lang in languages:
             u,w = line.strip().split(maxsplit=1)
             utt2wav[u] = w
 
-    # --------------------
+ 
     # Step 1: select GEN up to 2 hrs
-    # --------------------
+ 
 
     gen_candidates = [u for u,d in utt2dur.items() if 4 <= d <= 10]
     random.shuffle(gen_candidates)
@@ -73,10 +73,9 @@ for lang in languages:
 
     print(f"{lang} GEN hours:", total_dur/3600)
 
-    # --------------------
+ 
     # Step 2: group GEN by speaker
-    # --------------------
-
+  
     spk2gen = defaultdict(list)
 
     for u in gen_utts:
@@ -85,9 +84,9 @@ for lang in languages:
     pairs = []
     needed_utts = set()
 
-    # --------------------
+ 
     # Step 3: pairing
-    # --------------------
+     -
 
     for gen in gen_utts:
 
@@ -113,17 +112,17 @@ for lang in languages:
         needed_utts.add(ref)
         needed_utts.add(gen)
 
-    # --------------------
+ 
     # write lst
-    # --------------------
+ 
 
     with open(out_lst,"w",encoding="utf-8") as f:
         for p in pairs:
             f.write(p+"\n")
 
-    # --------------------
+ 
     # write wav.scp
-    # --------------------
+ 
 
     with open(out_wavscp,"w") as f:
         for utt in needed_utts:
